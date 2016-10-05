@@ -32,7 +32,7 @@ import static org.springframework.test.web.servlet.setup.MockMvcBuilders.webAppC
 
 @RunWith(SpringJUnit4ClassRunner.class)
 @SpringBootTest
-public class AsyncApplicationIntegrationTest {
+public class AggregatorControllerIntegrationTest {
     private static final ObjectMapper MAPPER = new ObjectMapper();
     private static final String[] ROUTES = {
             "/weather/utrecht",
